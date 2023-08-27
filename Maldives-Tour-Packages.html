@@ -1,0 +1,438 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jingle Holiday Bazar</title>
+   <link rel="icon" type="image/x-icon" href="images/mainlogo.gif" style="    border-radius: 600px;">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="travel.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <link rel="stylesheet" type="text/css" href="blog.css">
+</head>
+<body>
+<!--=============================nav bar=====================================-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="position: fixed; width: 100%; 
+background-image: -webkit-linear-gradient( 268deg , #312504 0%, white 100%);
+    color: black;">
+    <div class="container-fluid"> 
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="images/mainlogo.gif">
+        </a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+        <div class="collapse navbar-collapse pl-4" id="navbarNavDropdown">
+            <ul class="navbar-nav pl-5 mx-auto" id="navi">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Domestic</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="north.html">NORTH</a>
+                        <a class="dropdown-item" href="west.html">WEST</a>
+                        <a class="dropdown-item" href="east.html">EAST</a>
+                        <a class="dropdown-item" href="south.html">SOUTH</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    International</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Thailand-Tour-Packages.html">Thailand</a>
+                        <a class="dropdown-item" href="Belgium-Tour-Packages.html">Belgium</a>
+                        <a class="dropdown-item" href="Canada-Tour-Packages.html">Canada</a>
+                        <a class="dropdown-item" href="Dubai-Tour-Packages.html">Dubai</a>
+                        <a class="dropdown-item" href="Singapore-Tour-Packages.html">Singapore</a>
+                        <a class="dropdown-item" href="Germany-Tour-Packages.html">Germany</a>
+                        <a class="dropdown-item" href="Maldives-Tour-Packages.html">Maldives</a>
+                        <a class="dropdown-item" href="Iceland-Tour-Packages.html">Iceland</a>
+                        <a class="dropdown-item" href="Malaysia-Tour-Packages.html">Malaysia</a>
+                        <a class="dropdown-item" href="Switzerland-Tour-Packages.html">Switzerland</a>
+                        <a class="dropdown-item" href="Nepal-Tour-Packages.html">Nepal</a>
+                        <a class="dropdown-item" href="international-package-service.html">View More Place</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Place</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="destinations.html">Destinations</a>
+                        <a class="dropdown-item" href="hotel.html"> Hotels</a>
+                        <a class="dropdown-item" href="gallery.html">Gallery</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Packages</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="domestic-package-service.html"> Domestic Packages</a>
+                        <a class="dropdown-item" href="international-package-service.html"> International Packages</a>
+                    </div>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tel:+91 8506922777">+91 8506922777</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="payment_form.html">PAY NOW</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--=============================nav bar=====================================-->
+
+<!--===================================================-->
+<div id="mySidenav" class="sidenav">
+    <a data-toggle="modal" data-target="#exampleModal" id="about" style="font-size:10px;color:white;">Enquiry</a> 
+    <a href="mailto:jingleholidaybazar@gmail.com" id="blog" style="font-size:10px;color:red">
+        <img src="images/logo_gmail_lockup_default_1x_r2.png" style="height:15px"></a>
+    <a class="fa fa-phone" href="tel:+91 8506922777" id="projects" style="font-size:15px;color:white;"></a>
+    <a class="fa fa-whatsapp" href="https://wa.link/9hwu05" id="contact" style="font-size:15px;color:white;"></a>
+</div>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-left: auto;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel" style="margin-right: auto; margin-left: auto;">CONTACT</h2>
+       
+      </div>
+      <div class="modal-body">
+        <div class="wrapper">
+    
+    <form action="" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" name="Name" id="name" placeholder="First and Last" required minlength="3" maxlength="25" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" name="Email" id="email" placeholder="email@domain.tld" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="Message" id="message" rows="5" placeholder="Type your message here...."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Send</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </form>
+  </div>
+      </div>
+      <div id="status"></div>
+      
+    </div>
+  </div>
+</div>
+  <section class="inner-page-banner" style="background-image:url(images/Group-Learning-Tours-1024x587.jpg); margin-bottom: 32px;">
+    <div class="page-banner-caption">
+      <div class="container">
+        <div class="row">
+          <div data-aos="fade-right">
+          <div class="col-md-12">
+            <h1>Maldives Tour Details</h1>
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active">Tours</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+   AOS.init({
+  duration: 1200,
+})
+ </script>
+ 
+ 
+ 
+ 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="text-center"> Maldives Tour Package </h3>
+      <hr>
+    </div>
+  </div>
+</div>
+ <!--====================================================================================-->
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="images/travel.jpg" width="100%">
+    </div>
+     <div class="col-md-4">
+       <img src="images/Jingle.jpg" width="100%">
+    </div>
+     <div class="col-md-4">
+       <img src="images/travel-world.jpg" width="100%">
+     </div>
+  </div>
+</div>
+
+<!--============================================================================================-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+        <div class="twelve">
+            <h2 class="text-danger text-center"><b><i>Perfect Time To Visit Maldives </i></b></h2>
+        </div>
+          <p>
+            <b> 
+                Discover the wonders of the Maldives, a tropical paradise offering stunning sights and pristine waters! Jingle Holiday Bazar welcomes you to an unforgettable sightseeing experience.
+Delight in the vibrant coral reefs as you snorkel or dive into the mesmerizing underwater world. Be amazed by the colorful marine life, from playful dolphins to majestic sea turtles.
+Stroll along soft, sandy beaches, where gentle turquoise waves caress the shore. Soak up the warm sun and take a refreshing dip in the inviting ocean.
+Immerse yourself in the rich Maldivian culture by visiting local islands. Unearth traditional handicrafts and savor delectable local cuisine.
+Embark on an extraordinary adventure by hopping on a boat and sailing through picturesque atolls. Witness breathtaking sunsets that paint the sky in mesmerizing hues.
+Relax and rejuvenate at luxurious resorts, surrounded by lush greenery and tranquil lagoons. Indulge in spa treatments to enhance your island experience.
+With Jingle Holiday Bazar, your Maldives sightseeing journey will be filled with joy, laughter, and cherished memories. Book now for your dreamy island getaway!
+
+            </b>
+          </p>
+    </div>
+  </div>
+</div>
+<!--============================================================================================-->
+
+
+<!-- =====================Latest Blog Posts===================== -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="text-center">Latest Tour Packages</h3>
+      <hr>
+    </div>
+  </div>
+</div>
+<!--=============================================-->
+<!-- =====================Latest Blog Posts===================== -->
+
+<!--=============================================-->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-island-maldives-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Island Tour</h2>
+          <div class="card_text">
+            <p>Island hopping is an excellent way to explore multiple islands in one trip. It's an opportunity to witness stunning landscapes, crystal-clear waters, and unique wildlife such as sea turtles and dolphins. Remember to pack your snorkel gear to explore the vibrant coral reefs. Each island has its own charm and culture, making it an unforgettable adventure.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/island-maldives-blog.html">Read Blog</a></button>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-relaxing-beaches-maldives-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Relaxing on the beaches</h2>
+          <div class="card_text">
+            <p>Beaches are a popular spot for both tourists and locals to unwind and enjoy the natural beauty. With miles of pristine coastline, visitors can indulge in activities like swimming, sunbathing, and leisurely walks. Some beaches also provide picturesque views of nearby islands or historic landmarks, making them ideal for sightseeing while relishing the sand and sea breeze.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/beaches-maldives-blog.html">Read Blog</a></button>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-water-sports-maldives-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Water sports Tour</h2>
+          <div class="card_text">
+            <p>This destination offers a variety of water sports activities, such as snorkeling, scuba diving, surfing, kayaking, and windsurfing, which are great ways to have fun in the water. The water is clear and there is an abundance of colorful marine life to observe. Besides aquatic activities, visitors can explore the local culture, go sightseeing, and enjoy the beautiful beaches and resorts.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/water-sports-activities-maldives-blog.html">Read Blog</a></button>
+             <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- =====================row content 2==================================== -->
+<!--=============================================-->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-culture-maldives-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Maldives Culture Tour</h2>
+          <div class="card_text">
+            <p>The Maldives has a distinct culture influenced by its geography and Islamic beliefs. Tourists can attend cultural events to experience traditional music and dance performances such as boduberu drumming and thaa and langiri songs. Additionally, historical sites like the Hukuru Miskiy mosque are worth visiting. The country's beautiful beaches and underwater life make it an ideal location for snorkeling and diving.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/culture-maldives-blog.html">Read Blog</a></button>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-sunset-cruises-maldives-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Sunset cruises Tour</h2>
+          <div class="card_text">
+            <p>Watching the sunset on a cruise in the Maldives is an experience that you should not miss. The view of the sun going down and the sky painted with a mix of orange and pink colors is simply breathtaking. You might even get the chance to spot dolphins and other marine animals while on the trip, making it a truly unforgettable sightseeing adventure that you will cherish.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/sunset-cruise-maldives-blog.html">Read Blog</a></button>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+   
+  </ul>
+</div>
+<!-- =====================row content 2==================================== -->
+<!--=============================================-->
+
+<!-- =====================row content 2==================================== -->
+ 
+
+ 
+ 
+<script type="text/javascript">
+   AOS.init({
+  duration: 1200,
+})
+
+</script>
+ <br>
+<br><br>
+
+<!--=========================================== Live chat box=================================================-->
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/64e88f0294cf5d49dc6c7311/1h8m6t9hv';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!--================================= Live chat box==================================-->
+<div style="background-image: -webkit-linear-gradient(
+268deg
+, #312504 0%, white 100%); color:black">
+<div class="container ">
+  <div class="row">
+  <div class="col-md-3 mt-5 text-center">
+    <h4 style="color:black;">Have Questions?</h4>
+    <p>Phone:<a class="aboutus" href="https://wa.link/9hwu05">+91 8506922777</a><br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<a class="aboutus" href="https://api.whatsapp.com/send?phone=8506944777&text=Hello,%20I%20want%20more%20info%20about%20the%20your%20tours%20plane...?">+91 8506944777</a></p>
+    <p><a class="aboutus" href="mailto:jingleholidaybazar@gmail.com">jingleholidaybazar@gmail.com</a></p>
+    <p><a class="aboutus" href="mailto:thejingleholidaybazar@gmail.com">thejingleholidaybazar@gmail.com</a></p>
+    <p>24/7 Dedicated Customer Support</p>
+  </div>
+  <div class="col-md-3 mt-5 text-center">
+    <h4 style="color:black">Quick Links</h4>
+    <p><a class="aboutus" href="index.html">Home</a></p>
+    <p><a class="aboutus" href="about.html">About Us</a></p>
+    <div class="dropdown">
+    <li class="nav-link aboutus dropdown-toggle" data-toggle="dropdown">
+      India
+    </li>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="north.html">NORTH</a>
+      <a class="dropdown-item" href="west.html">WEST</a>
+      <a class="dropdown-item" href="east.html">EAST</a>
+      <a class="dropdown-item" href="south.html">SOUTH</a>
+      </div>
+  </div>
+    <p><a class="aboutus" href="destinations.html">Destinations</a></p>
+    <p><a class="aboutus" href="hotel.html">Hotels</a></p>
+    <p><a class="aboutus" href="gallery.html">Gallery</a></p>
+    <p><a class="aboutus" href="contact.html">Contact Us</a></p>
+
+  </div>
+  <div class="col-md-2 mt-5 text-center">
+    <h4 style="color:black;">Social Media</h4>
+    <div class="social-media">
+      <ul>
+        <li><a href="https://m.facebook.com/jingleholidaybazar"><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <!--<li><a href=""><i class="fa fa-pinterest"></i></a></li>-->
+          <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+          <!--<li><a href=""><i class="fa fa-tumblr"></i></a></li>-->
+
+
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-4 mt-5 ">
+    <h4 style="color: black;">Newsletter</h4>
+    <label>Enter your E-mail Address</label>
+    <input type="email" name="email" class="form-control">
+    <p style="margin-top: 5px;"><small>*We Never Send Spam</small></p>
+    <input type="submit" value="Subscribe" class="btn btn-success">
+
+
+  </div>
+  <div class="container text-center">
+    <hr style="background-color: black">
+  <h6>Powered By | <a href ="https://namratauniversal.com/">Namrata Universal</a> | All Rights are Reserved by Jingleholidaybazar</h6>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,383 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jingle Holiday Bazar</title>
+   <link rel="icon" type="image/x-icon" href="images/mainlogo.gif" style="    border-radius: 600px;">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="travel.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <link rel="stylesheet" type="text/css" href="blog.css">
+</head>
+<body>
+<!--=============================nav bar=====================================-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="position: fixed; width: 100%; 
+background-image: -webkit-linear-gradient( 268deg , #312504 0%, white 100%);
+    color: black;">
+    <div class="container-fluid"> 
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="images/mainlogo.gif">
+        </a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+        <div class="collapse navbar-collapse pl-4" id="navbarNavDropdown">
+            <ul class="navbar-nav pl-5 mx-auto" id="navi">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Domestic</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="north.html">NORTH</a>
+                        <a class="dropdown-item" href="west.html">WEST</a>
+                        <a class="dropdown-item" href="east.html">EAST</a>
+                        <a class="dropdown-item" href="south.html">SOUTH</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    International</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Thailand-Tour-Packages.html">Thailand</a>
+                        <a class="dropdown-item" href="Belgium-Tour-Packages.html">Belgium</a>
+                        <a class="dropdown-item" href="Canada-Tour-Packages.html">Canada</a>
+                        <a class="dropdown-item" href="Dubai-Tour-Packages.html">Dubai</a>
+                        <a class="dropdown-item" href="Singapore-Tour-Packages.html">Singapore</a>
+                        <a class="dropdown-item" href="Germany-Tour-Packages.html">Germany</a>
+                        <a class="dropdown-item" href="Maldives-Tour-Packages.html">Maldives</a>
+                        <a class="dropdown-item" href="Iceland-Tour-Packages.html">Iceland</a>
+                        <a class="dropdown-item" href="Malaysia-Tour-Packages.html">Malaysia</a>
+                        <a class="dropdown-item" href="Switzerland-Tour-Packages.html">Switzerland</a>
+                        <a class="dropdown-item" href="Nepal-Tour-Packages.html">Nepal</a>
+                        <a class="dropdown-item" href="international-package-service.html">View More Place</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Place</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="destinations.html">Destinations</a>
+                        <a class="dropdown-item" href="hotel.html"> Hotels</a>
+                        <a class="dropdown-item" href="gallery.html">Gallery</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Packages</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="domestic-package-service.html"> Domestic Packages</a>
+                        <a class="dropdown-item" href="international-package-service.html"> International Packages</a>
+                    </div>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tel:+91 8506922777">+91 8506922777</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="payment_form.html">PAY NOW</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--=============================nav bar=====================================-->
+
+<!--===================================================-->
+<div id="mySidenav" class="sidenav">
+    <a data-toggle="modal" data-target="#exampleModal" id="about" style="font-size:10px;color:white;">Enquiry</a> 
+    <a href="mailto:jingleholidaybazar@gmail.com" id="blog" style="font-size:10px;color:red">
+        <img src="images/logo_gmail_lockup_default_1x_r2.png" style="height:15px"></a>
+    <a class="fa fa-phone" href="tel:+91 8506922777" id="projects" style="font-size:15px;color:white;"></a>
+    <a class="fa fa-whatsapp" href="https://wa.link/9hwu05" id="contact" style="font-size:15px;color:white;"></a>
+</div>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-left: auto;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel" style="margin-right: auto; margin-left: auto;">CONTACT</h2>
+       
+      </div>
+      <div class="modal-body">
+        <div class="wrapper">
+    
+    <form action="" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" name="Name" id="name" placeholder="First and Last" required minlength="3" maxlength="25" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" name="Email" id="email" placeholder="email@domain.tld" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="Message" id="message" rows="5" placeholder="Type your message here...."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Send</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </form>
+  </div>
+      </div>
+      <div id="status"></div>
+      
+    </div>
+  </div>
+</div>
+
+  <section class="inner-page-banner" style="background-image:url(images/east_touristspot.jpeg); margin-bottom: 32px;">
+    <div class="page-banner-caption">
+      <div class="container">
+        <div class="row">
+          <div data-aos="fade-right">
+          <div class="col-md-12">
+            <h1>EAST</h1>
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active">EAST</li>
+            </ol>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<script type="text/javascript">
+   AOS.init({
+  duration: 1200,
+})
+
+</script>
+<div class="container">
+<section id="header" class="jumbotron text-center">
+     <h3 class="display-5">EAST INDIA GALLERY</h3>
+     <p class="lead" style="color: #5d5d8f !important";>The Eastern Zone of India is rich in Cultural Heritage. You can have a taste of beaches, temples, monasteries, Buddhist circuits with a rural touch.The most popular tourist destinations for this region are, Calcutta, Former Capital of India, Puri & Bhubaneshwar, Buddhist Circuit in Bihar, Monastries in Sikkim, Kanchenjunga Range of Mountains in Darjeeling, etc</p>
+   </section>
+ </div>
+<div class="row">
+  
+  <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <div data-aos="zoom-in">
+    <div class="card">
+      <div class="card-body">
+       <a href="Kaziranga-National-Park-Assam.html">
+      <img class="card-img-top" src="images/Kaziranga.jpg" alt="Card image cap">
+      <p class="card-text">Kaziranga National Park</p></a>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+      <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <div data-aos="zoom-in">
+    <div class="card">
+      <div class="card-body">
+        <a href="Tsomgo-Lake-Sikkim.html">
+      <img class="card-img-top" src="images/Tsomgo-Lake.jpg" alt="Card image cap">
+      <p class="card-text">Tsomgo Lake</p></a>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <div data-aos="zoom-in">
+    <div class="card">
+      <div class="card-body">
+        <a href="Ziro-Valley-Arunachal-Pradesh.html">
+      <img class="card-img-top" src="images/Ziro-Valley.jpg" alt="Card image cap">
+      <p class="card-text">Ziro Valley</p></a>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <div data-aos="zoom-in">
+    <div class="card">
+      <div class="card-body">
+         <a href="Goechala-Sikkim.html">
+      <img class="card-img-top" src="images/Goechala.jpg" alt="Card image cap">
+      <p class="card-text">Goechala</p></a>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <div data-aos="zoom-in">
+    <div class="card">
+      <div class="card-body">
+       <a href="Cherrapunji-Mawsynram-Meghalaya.html">
+      <img class="card-img-top" src="images/Cherrapunji.jpg" alt="Card image cap">
+      <p class="card-text">Cherrapunji and Mawsynram</p></a>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <div data-aos="zoom-in">
+    <div class="card">
+      <div class="card-body">
+       <a href="Pelling-Sikkim.html">
+      <img class="card-img-top" src="images/Pelling.jpg" alt="Card image cap">
+      <p class="card-text">Pelling</p></a>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <div data-aos="zoom-in">
+    <div class="card">
+      <div class="card-body">
+       <a href="Gangtok-Sikkim.html">
+      <img class="card-img-top" src="images/Gangtok.jpg" alt="Card image cap">
+      <p class="card-text">Gangtok</p></a>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+    <div class="col-12 col-md-6 col-lg-3 mb-4">
+    <div data-aos="zoom-in">
+    <div class="card">
+      <div class="card-body">
+        <a href="Gorichen-Peak-Arunachal-Pradesh.html">
+      <img class="card-img-top" src="images/Gorichen-Peak.jpg" alt="Card image cap">
+      <p class="card-text">Gorichen Peak</p></a>
+      </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+ <br>
+<br><br>
+ 
+ 
+<script type="text/javascript">
+   AOS.init({
+  duration: 1200,
+})
+
+</script>
+ <br>
+<br><br>
+
+<!--=========================================== Live chat box=================================================-->
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/64e88f0294cf5d49dc6c7311/1h8m6t9hv';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!--================================= Live chat box==================================-->
+<div style="background-image: -webkit-linear-gradient(
+268deg
+, #312504 0%, white 100%); color:black">
+<div class="container ">
+  <div class="row">
+  <div class="col-md-3 mt-5 text-center">
+    <h4 style="color:black;">Have Questions?</h4>
+    <p>Phone:<a class="aboutus" href="https://wa.link/9hwu05">+91 8506922777</a><br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<a class="aboutus" href="https://api.whatsapp.com/send?phone=8506944777&text=Hello,%20I%20want%20more%20info%20about%20the%20your%20tours%20plane...?">+91 8506944777</a></p>
+    <p><a class="aboutus" href="mailto:jingleholidaybazar@gmail.com">jingleholidaybazar@gmail.com</a></p>
+    <p><a class="aboutus" href="mailto:thejingleholidaybazar@gmail.com">thejingleholidaybazar@gmail.com</a></p>
+    <p>24/7 Dedicated Customer Support</p>
+  </div>
+  <div class="col-md-3 mt-5 text-center">
+    <h4 style="color:black">Quick Links</h4>
+    <p><a class="aboutus" href="index.html">Home</a></p>
+    <p><a class="aboutus" href="about.html">About Us</a></p>
+    <div class="dropdown">
+    <li class="nav-link aboutus dropdown-toggle" data-toggle="dropdown">
+      India
+    </li>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="north.html">NORTH</a>
+      <a class="dropdown-item" href="west.html">WEST</a>
+      <a class="dropdown-item" href="east.html">EAST</a>
+      <a class="dropdown-item" href="south.html">SOUTH</a>
+      </div>
+  </div>
+    <p><a class="aboutus" href="destinations.html">Destinations</a></p>
+    <p><a class="aboutus" href="hotel.html">Hotels</a></p>
+    <p><a class="aboutus" href="gallery.html">Gallery</a></p>
+    <p><a class="aboutus" href="contact.html">Contact Us</a></p>
+
+  </div>
+  <div class="col-md-2 mt-5 text-center">
+    <h4 style="color:black;">Social Media</h4>
+    <div class="social-media">
+      <ul>
+        <li><a href="https://m.facebook.com/jingleholidaybazar"><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <!--<li><a href=""><i class="fa fa-pinterest"></i></a></li>-->
+          <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+          <!--<li><a href=""><i class="fa fa-tumblr"></i></a></li>-->
+
+
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-4 mt-5 ">
+    <h4 style="color: black;">Newsletter</h4>
+    <label>Enter your E-mail Address</label>
+    <input type="email" name="email" class="form-control">
+    <p style="margin-top: 5px;"><small>*We Never Send Spam</small></p>
+    <input type="submit" value="Subscribe" class="btn btn-success">
+
+
+  </div>
+  <div class="container text-center">
+    <hr style="background-color: black">
+  <h6>Powered By | <a href ="https://namratauniversal.com/">Namrata Universal</a> | All Rights are Reserved by Jingleholidaybazar</h6>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
+</body>
+</html>

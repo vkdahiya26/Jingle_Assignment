@@ -1,0 +1,1262 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jingle Holiday Bazar</title>
+   <link rel="icon" type="image/x-icon" href="images/mainlogo.gif" style="    border-radius: 600px;">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="travel.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <link rel="stylesheet" type="text/css" href="blog.css">
+</head>
+<body>
+<!--=============================nav bar=====================================-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="position: fixed; width: 100%; 
+background-image: -webkit-linear-gradient( 268deg , #312504 0%, white 100%);
+    color: black;">
+    <div class="container-fluid"> 
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="images/mainlogo.gif">
+        </a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+        <div class="collapse navbar-collapse pl-4" id="navbarNavDropdown">
+            <ul class="navbar-nav pl-5 mx-auto" id="navi">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Domestic</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="north.html">NORTH</a>
+                        <a class="dropdown-item" href="west.html">WEST</a>
+                        <a class="dropdown-item" href="east.html">EAST</a>
+                        <a class="dropdown-item" href="south.html">SOUTH</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    International</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Thailand-Tour-Packages.html">Thailand</a>
+                        <a class="dropdown-item" href="Belgium-Tour-Packages.html">Belgium</a>
+                        <a class="dropdown-item" href="Canada-Tour-Packages.html">Canada</a>
+                        <a class="dropdown-item" href="Dubai-Tour-Packages.html">Dubai</a>
+                        <a class="dropdown-item" href="Singapore-Tour-Packages.html">Singapore</a>
+                        <a class="dropdown-item" href="Germany-Tour-Packages.html">Germany</a>
+                        <a class="dropdown-item" href="Maldives-Tour-Packages.html">Maldives</a>
+                        <a class="dropdown-item" href="Iceland-Tour-Packages.html">Iceland</a>
+                        <a class="dropdown-item" href="Malaysia-Tour-Packages.html">Malaysia</a>
+                        <a class="dropdown-item" href="Switzerland-Tour-Packages.html">Switzerland</a>
+                        <a class="dropdown-item" href="Nepal-Tour-Packages.html">Nepal</a>
+                        <a class="dropdown-item" href="international-package-service.html">View More Place</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Place</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="destinations.html">Destinations</a>
+                        <a class="dropdown-item" href="hotel.html"> Hotels</a>
+                        <a class="dropdown-item" href="gallery.html">Gallery</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Packages</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="domestic-package-service.html"> Domestic Packages</a>
+                        <a class="dropdown-item" href="international-package-service.html"> International Packages</a>
+                    </div>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tel:+91 8506922777">+91 8506922777</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="payment_form.html">PAY NOW</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--=============================nav bar=====================================-->
+
+<!--===================================================-->
+<div id="mySidenav" class="sidenav">
+    <a data-toggle="modal" data-target="#exampleModal" id="about" style="font-size:10px;color:white;">Enquiry</a> 
+    <a href="mailto:jingleholidaybazar@gmail.com" id="blog" style="font-size:10px;color:red">
+        <img src="images/logo_gmail_lockup_default_1x_r2.png" style="height:15px"></a>
+    <a class="fa fa-phone" href="tel:+91 8506922777" id="projects" style="font-size:15px;color:white;"></a>
+    <a class="fa fa-whatsapp" href="https://wa.link/9hwu05" id="contact" style="font-size:15px;color:white;"></a>
+</div>
+
+
+
+
+<!--=============================nav bar=====================================-->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-left: auto;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel" style="margin-right: auto; margin-left: auto;">CONTACT</h2>
+       
+      </div>
+      <div class="modal-body">
+        <div class="wrapper">
+    
+    <form action="" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" name="Name" id="name" placeholder="First and Last" required minlength="3" maxlength="25" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" name="Email" id="email" placeholder="email@domain.tld" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="Message" id="message" rows="5" placeholder="Type your message here...."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Send</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </form>
+  </div>
+      </div>
+      <div id="status"></div>
+      
+    </div>
+  </div>
+</div>
+  <section class="inner-page-banner" style="background-image:url(images/jingle-holiday-bazar-domestic-packages-blogs-tour-package-banner.png); margin-bottom: 32px;">
+    <!--<div class="page-banner-caption">-->
+    <!--  <div class="container">-->
+    <!--    <div class="row">-->
+    <!--      <div data-aos="fade-right">-->
+    <!--      <div class="col-md-12">-->
+    <!--        <h1 class="" style="color :black; margin-top : -20px">Domestic Tour Details</h1>-->
+    <!--        <ol class="breadcrumb">-->
+    <!--          <li class="breadcrumb-item"><a href="index.html">Home</a></li>-->
+    <!--          <li class="breadcrumb-item active">Tours</li>-->
+    <!--        </ol>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</div>-->
+    <!--</div>-->
+  </section>
+
+  <script type="text/javascript">
+   AOS.init({
+  duration: 1200,
+})
+ </script>
+
+
+
+<!-- =========================================================== -->
+
+
+<!-- ============================Latest Blog Posts================================== -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="text-center">Latest Blog Posts</h3>
+      <hr>
+    </div>
+  </div>
+</div>
+<!--=============================================-->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-delhi-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Delhi Capital of India</h2>
+          <div class="card_text">
+            <p>New Delhi, situated in the northern region of India, is the country's capital city and home to a population of more than 21 million people. The city is renowned for its rich historical heritage, diverse culture, and culinary delights, and serves as an essential center for politics, education, and commerce within the country.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Delhi-Tour-Packages.html">Read More</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+        
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+        <img src="images/jingle-holiday-bazar-himachal-pradesh-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Himachal Pradesh Tour</h2>
+          <div class="card_text">
+            <p>Himachal Pradesh is located in northern India and is famous for its stunning mountain landscapes, rich flora and fauna, and scenic beauty. The state capital is Shimla, and other major cities include Manali, Dharamshala, and Solan. Tourists are drawn to this state for adventure activities such as trekking, mountaineering, and skiing.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Himachal-Tour-Packages.html">Read More</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-uttarakhand-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Uttarakhand</h2>
+          <div class="card_text">
+          <p>Uttarakhand is a beautiful state located in the northern part of India. It is commonly referred to as the "Land of Gods" due to its numerous pilgrimage sites, including the renowned Kedarnath and Badrinath temples. Apart from its spiritual significance, Uttarakhand is also known for its breathtaking natural beauty, with popular tourist destinations like Nainital and Mussoorie hill stations, and the holy city of Haridwar.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Uttarakhand-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ================================Blog content 2==================================== -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/rajasthan-blog.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Rajasthan</h2>
+          <div class="card_text">
+            <p>Located in northern India, Rajasthan is celebrated for its rich history, vibrant culture, and unique desert landscapes. With a population exceeding 77 million, the state is the largest in India and its residents predominantly speak Hindi. Rajasthan is renowned for its opulent palaces, ancient forts, lively festivals, and exquisite handicrafts.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Rajasthan-Tour-Packages.html">Read Blog</a></button>
+        
+          </div>
+        </div>
+         <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-uttar-pradesh-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Uttar Pradesh</h2>
+          <div class="card_text">
+          <p>Uttar Pradesh is a state located in northern India, which boasts numerous popular tourist destinations. Visitors to Uttar Pradesh can explore the breathtaking Taj Mahal in Agra, the spiritual city of Varanasi, the magnificent monuments of Lucknow, the diverse wildlife of Dudhwa National Park, and the sacred sites of Mathura and Vrindavan. These destinations provide an opportunity to experience the cultural and natural beauty of the state.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Uttar-pradesh-Tour-packages.html">Read Blog</a></button>
+          </div>
+        </div>
+         <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-mumbai-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Mumbai</h2>
+          <div class="card_text">
+            <p>Mumbai, which was previously known as Bombay, is a lively metropolis located on the western coast of India. The city has many popular tourist spots, including the Gateway of India, Marine Drive, Elephanta Caves, and Chhatrapati Shivaji Terminus. Visitors can also indulge in delicious street food, explore local markets, and take boat rides to get a stunning view of the city's skyline from the sea.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Mumbai-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+         <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ============================Latest Blog Posts================================== -->
+<!-- ========================Read All Time Favorites========================= -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="text-center">Read All Time Favorites</h3>
+      <hr>
+    </div>
+  </div>
+</div>
+<!-- ================================Blog content 3==================================== -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-punjab-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Punjab Tour</h2>
+          <div class="card_text">
+          <p>Punjab, located in northern India, is renowned for its extensive history and cultural heritage. Tourists flock to popular landmarks such as the Golden Temple, Jallianwala Bagh, Wagah Border ceremony, Anandpur Sahib Gurudwara, Rock Garden, and Sheesh Mahal. Additionally, visitors can indulge in the state's vibrant food scene and explore its bustling shopping districts.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Punjab-Tour-packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-andhra-pradesh-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Andhra Pradesh Tour</h2>
+          <div class="card_text">
+            <p>There are numerous sightseeing options in Andhra Pradesh, a state located in southeastern India. One can visit the historic city of Vijayawada and explore the famous Kanaka Durga Temple or head to the coastal city of Visakhapatnam to see the fascinating INS Kurusura submarine museum. In addition, the state boasts other notable attractions such as the scenic Araku Valley, the breathtaking Belum Caves, and the stunning Borra Caves.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Andhra-Pradesh-Tour-packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-haryana-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Haryana Tour</h2>
+          <div class="card_text">
+           <p>Haryana is a state located in the northern part of India, bordered by the states of Punjab, Himachal Pradesh, Rajasthan, and Uttar Pradesh. The state has a population of more than 28 million people, and its capital city is Chandigarh, which is a union territory and also serves as the capital of Punjab.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Haryana-Tour-packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ========================Read All Time Favorites========================= -->
+<!-- ========================Adventure Travel========================= -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="text-center">Adventure Travel Blog</h3>
+      <hr>
+    </div>
+  </div>
+</div>
+<!-- ================================Blog content 3==================================== -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-ladakh-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Ladakh Tour</h2>
+          <div class="card_text">
+         <p>Ladakh is a beautiful region located in Northern India that boasts breathtaking landscapes and a rich cultural heritage. Among its popular sightseeing spots are the stunning Pangong Lake, the historic Leh Palace, the colorful Hemis Monastery, and the picturesque Nubra Valley. In addition to sightseeing, visitors can enjoy outdoor activities such as trekking and camping, as well as exploring the local markets and sampling the delicious cuisine.</p>
+         <button type="button" class="btn btn-outline-success btn-sm"><a href="Ladakh-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-jammu-kashmir-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Jammu & Kashmir Tour</h2>
+          <div class="card_text">
+            <p>Jammu & Kashmir is a magnificent tourist destination in India, celebrated for its breathtaking scenery and vibrant cultural heritage. The region boasts several popular tourist attractions such as Dal Lake, Srinagar, Gulmarg, Pahalgam, Sonamarg, Leh, and Ladakh. Additionally, adventure seekers can engage in activities like trekking, skiing, and river rafting.</p>
+          <button type="button" class="btn btn-outline-success btn-sm"><a href="Jammu-Kashmir-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-goa-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Goa Tour</h2>
+          <div class="card_text">
+           <p>Goa is a well-known destination for tourists in India, renowned for its gorgeous beaches, colonial architecture, and bustling nightlife. The top sightseeing spots in Goa include the Basilica of Bom Jesus, Fort Aguada, Chapora Fort, Dudhsagar Falls, and Anjuna Flea Market. Visitors can also indulge in water sports, seafood, and experience the unique blend of Indian and Portuguese cultures in Goa.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Goa-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ========================Adventure Travel========================= -->
+
+<!-- ========================Travel with Nature Photography========================= -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="text-center">Travel with Nature</h3>
+      <hr>
+    </div>
+  </div>
+</div>
+<!-- ===========================Blog content 3========================= -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-gujarat-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Gujarat</h2>
+          <div class="card_text">
+          <p>Gujarat, located in western India, is a state that is renowned for its cultural heritage and historical landmarks. Visitors can explore various popular tourist attractions such as the Somnath Temple, Dwarkadhish Temple, Sabarmati Ashram, Gir Forest National Park, and Rann of Kutch. The region also offers a unique experience of local cuisine, textiles, and handicrafts.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Gujarat-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-madhya-pradesh-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Madhya Pradesh</h2>
+          <div class="card_text">
+            <p>Madhya Pradesh, situated in central India, offers a variety of exciting tourist spots. Its national parks including Bandhavgarh, Kanha, and Pench are known for their thrilling wildlife safaris. The Khajuraho temples, Sanchi Stupa, and forts like Gwalior and Mandu are other popular attractions to explore. Madhya Pradesh's natural beauty and cultural richness make it a must-visit destination for travelers.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Madhya-Pradesh-Tour-packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-west-bengal-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">West Bengal</h2>
+          <div class="card_text">
+           <p>West Bengal is a state located in the eastern region of India, which offers a wide range of exciting sightseeing opportunities. Some of the famous attractions that you can explore are the Victoria Memorial, Sundarbans National Park, and the Darjeeling Himalayan Railway. Apart from that, you can also enjoy the delightful local cuisine and participate in traditional festivals.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="West-Bengal-Tour-packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ==================================================================== -->
+<!-- ===========================Blog content 3.2========================= -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-jharkhand-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Jharkhand</h2>
+          <div class="card_text">
+          <p>Jharkhand, an eastern Indian state, boasts of stunning landscapes and a vibrant cultural heritage. The state is home to several noteworthy tourist attractions, including Hundru Falls, Betla National Park, Baidyanath Temple, Ranchi Hill, Sun Temple, and Jagannath Temple. Besides, visitors can also immerse themselves in the local culture by exploring tribal villages and sampling the delicious regional cuisine.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Jharkhand-Tour-packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-odisha-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Odisha</h2>
+          <div class="card_text">
+            <p>Odisha is a state located on the east coast of India, which offers a wide variety of options for sightseeing. Visitors can explore the iconic Konark Sun Temple, the serene Chilika Lake, and the historic Jagannath Temple in Puri. In addition to these landmarks, the state is also known for its vibrant tribal culture, which can be experienced in places like Koraput and Rayagada.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Odisha-Tour-packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-kerala-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Kerala</h2>
+          <div class="card_text">
+           <p>Kerala is a lovely destination located in southwestern India. The region offers a variety of breathtaking sights to explore, including the serene backwaters of Alleppey, the lush green tea plantations in Munnar, the stunning beaches of Kovalam and Varkala, the historic Fort Kochi, and the tranquil hill station of Wayanad. Besides its beautiful scenery, Kerala is also renowned for its delicious cuisine and vibrant cultural festivals that are sure to provide full of entertainment.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Kerala-Tour-packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ==================================================================== -->
+<!-- ===========================Blog content 3.3========================= -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-assam-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Assam Tour</h2>
+          <div class="card_text">
+          <p>Assam is a state located in the northeastern region of India. It is well-known for its tea plantations, wildlife sanctuaries, and rich cultural heritage. Tourists can enjoy visiting popular attractions such as Kaziranga and Manas National Parks, Kamakhya Temple, Sivasagar, Majuli Island, and Pobitora Wildlife Sanctuary. Additionally, adventure enthusiasts can participate in exciting activities such as river rafting, trekking, and wildlife safaris. The cities of Jorhat and Dibrugarh are home to stunning tea gardens. 
+          <!--that are definitely worth a visit.-->
+          </p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Assam-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-meghalaya-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Meghalaya Tour</h2>
+          <div class="card_text">
+            <p>Meghalaya, located in northeast India, is a stunningly beautiful state known for its top tourist destinations, such as the Living Root Bridges, Umiam Lake, Mawlynnong Village (known as Asia's cleanest village), and Nohkalikai Waterfall (India's highest plunge waterfall) in Cherrapunji. In addition to its natural beauty, Meghalaya is also renowned for its vibrant culture and traditions.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Meghalaya-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-karnataka-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Karnataka Tour</h2>
+          <div class="card_text">
+           <p>Karnataka, a state located in the southwestern region of India, is home to several popular tourist destinations. Among them, some of the top places to visit are the historic city of Hampi, picturesque hill stations of Coorg and Chikmagalur, ancient temples of Belur and Halebidu, vibrant city of Bangalore, as well as many wildlife sanctuaries and beaches.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Karnataka-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ==================================================================== -->
+<!-- ===========================Blog content 3.4========================= -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-telangana-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Telangana Tour</h2>
+          <div class="card_text">
+          <p>Telangana, located in southern India, is renowned for its rich historical and cultural landmarks. Hyderabad, the state capital, is famous for the Charminar, Golconda Fort, and the Salar Jung Museum. Other notable attractions in the area include Ramappa Temple, Thousand Pillar Temple, Warangal Fort, and Kaleshwaram Temple. The state also features beautiful lakes, parks, and wildlife sanctuaries.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Telangana-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-tamil-nadu-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Tamil Nadu Tour</h2>
+          <div class="card_text">
+            <p>Tamil Nadu is a state located in the southern part of India, which is renowned for its numerous sightseeing options. The ancient city of Madurai is famous for its Meenakshi Amman Temple, while Pondicherry offers a unique blend of French and Indian cultures. Ooty hill station and the temple towns of Kanchipuram and Mahabalipuram are also popular tourist destinations in Tamil Nadu.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Tamil-Nadu-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-tripura-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Tripura Tour</h2>
+          <div class="card_text">
+           <p>Tripura, located in the northeastern region of India, is a popular destination for sightseeing. Some of the most famous tourist attractions in the area include Ujjayanta Palace, Neermahal Water Palace, Unakoti Hill, Tripura Sundari Temple, Sepahijala Wildlife Sanctuary, and Jampui Hills. Visitors can also immerse themselves in the local culture and savor the cuisine that has a combination of Bengali and tribal influences.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Tripura-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ==================================================================== -->
+<!-- ===========================Blog content 3.5========================= -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-mizoram-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Mizoram Tour</h2>
+          <div class="card_text">
+          <p>Mizoram is a state located in Northeast India that is renowned for its natural beauty and tranquil lakes. Visitors to Mizoram should not miss the chance to explore some of its top lakes, including Tamdil Lake, Palak Dil, Rih Dil, and Vantawng Falls. These lakes offer breathtaking views and are perfect for outdoor activities such as boating and picnicking. Make sure to experience the beauty of Mizoram's lakes during your visit!</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Mizoram-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-manipur-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Manipur Tour</h2>
+          <div class="card_text">
+            <p>Manipur is a state in Northeast India that boasts of numerous sightseeing options. Some of the most popular places to visit in the state include Loktak Lake, the largest freshwater lake in the country, Kangla Fort, a site of great historical significance, and Shree Govindajee Temple, which is a stunning example of traditional Manipuri architecture. Other attractions that visitors can explore are the Imphal War Cemetery and the Manipur State Museum.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Manipur-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-chhattisgarh-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Chhattisgarh Tour</h2>
+          <div class="card_text">
+           <p>Chhattisgarh, located in central India, offers a variety of sightseeing options for tourists. The region is home to several popular tourist destinations, such as the ancient temples of Bhoramdeo and Sirpur, Chitrakoot and Tirathgarh waterfalls, Barnawapara wildlife sanctuary, and the tribal villages of Bastar. Additionally, visitors can explore the cities of Raipur, Bilaspur, and Jagdalpur, which are also popular tourist destinations.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Chhattisgarh-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ==================================================================== -->
+<!-- ===========================Blog content 3.6========================= -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-bihar-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Bihar Tour</h2>
+          <div class="card_text">
+          <p>Located in eastern India, Bihar is a state with numerous tourist attractions. Some of the most popular places to visit include Bodh Gaya, where Buddha achieved enlightenment; Rajgir, an ancient city featuring hot springs and temples; Nalanda, a former center of learning; and Patna, the state capital, which boasts historical sites like the Mahavir Mandir and Gandhi Maidan.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Bihar-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-nagaland-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Nagaland Tour</h2>
+          <div class="card_text">
+            <p>Nagaland is a state in Northeast India that is renowned for its rich cultural heritage and stunning natural beauty. Some of the top tourist attractions in Nagaland include Dzukou Valley, Kohima War Cemetery, Japfu Peak, Mokokchung, and the Hornbill Festival. Visitors can also enjoy various activities such as trekking, bird watching, and shopping for unique handicrafts and souvenirs in local markets.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Nagaland-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+     <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-north-east-tour-package.jpg" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">North East India Tour</h2>
+          <div class="card_text">
+            <p>North East India offers numerous sightseeing options. Visitors can explore the Kaziranga National Park to witness the one-horned rhino, trek to the living root bridges in Meghalaya, experience the cultural diversity of Assam on Majuli Island, or admire the pristine beauty of the Tawang Monastery in Arunachal Pradesh. Moreover, tourists must try the delicious local cuisine available in the region.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="North-east-india-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ==================================================================== -->
+<!-- ===========================Blog content 3.6========================= -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-arunachal-pradesh-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Arunachal Pradesh Tour</h2>
+          <div class="card_text">
+          <p>Arunachal Pradesh is a state located in the northeastern part of India, which is renowned for its stunning natural beauty and cultural heritage. Some of the most popular tourist attractions in the region include the Tawang Monastery, Ziro Valley, Namdapha National Park, Sela Pass, and Bomdila Monastery. Additionally, visitors to the area can enjoy various outdoor activities such as trekking and rafting.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Arunachal-Pradesh-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+
+  </ul>
+</div>
+<!-- ==================================================================== -->
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="text-center">Yatra</h3>
+      <hr>
+    </div>
+  </div>
+</div>
+<!-- ==================================================================== -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-mata-vaishno-devi-tour-packag.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Mata Vaishno Devi Yatra</h2>
+          <div class="card_text">
+          <p>Mata Vaishno Devi is a revered Hindu pilgrimage site situated in the Trikuta Mountains of Jammu and Kashmir, India. Devotees can embark on a 13-kilometer trek from Katra, the base camp, to reach the shrine. The journey is dotted with several temples including the Banganga Temple, Charan Paduka Temple, Adkuwari, and Bhairon Temple. It is regarded as a sacred and deeply spiritual experience for pilgrims.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Mata-Vaishno-Devi-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-kedarnath-temple-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Kedarnath Yatra</h2>
+          <div class="card_text">
+            <p>Kedarnath, located in Uttarakhand, India, is a well-known pilgrimage destination renowned for its stunning views of the Himalayas. The Kedarnath Temple, which is dedicated to Lord Shiva, is the main attraction, but there are other notable sites like the Bhairavnath Temple, Gaurikund, Vasuki Tal, and Gandhi Sarovar. The region also offers great opportunities for trekking and exploring the breathtaking landscapes</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Kedarnath-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+     <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-badrinath-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Badrinath Yatra</h2>
+          <div class="card_text">
+            <p>Badrinath is a sacred pilgrimage destination situated in the Chamoli district of Uttarakhand, India. It is renowned for the Badrinath Temple, which is among the four revered shrines of the Char Dham Yatra in Hinduism. Besides the temple, visitors can explore various other sites like Mana Village, Vasudhara Falls, Tapt Kund, and Narad Kund during their trip to Badrinath.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Badrinath-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ==================================================================== -->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-char-dham-yatra-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Char Dham Yatra</h2>
+          <div class="card_text">
+          <p>Char Dham Yatra is an important Hindu pilgrimage in the Indian state of Uttarakhand. The yatra consists of visiting four sacred shrines: Yamunotri, Gangotri, Kedarnath, and Badrinath. This journey is known for being physically and mentally challenging, but it is also a deeply meaningful spiritual experience. Hindus consider the yatra to be a way of purifying one's soul and achieving enlightenment.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="Char-Dham-Yatra-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-ramayana-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Ramayana Yatra</h2>
+          <div class="card_text">
+            <p>The Ramayana is an ancient Hindu epic that tells the tale of Rama and his mission to rescue his spouse Sita from the demon king Ravana. It is considered to be one of the most important works of Hindu literature, and many tourists visit India to see the various sights associated with the Ramayana, such as the temples dedicated to Rama and Sita, as well as the city of Ayodhya, which is believed to be Rama's birthplace.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="Ramayana-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-9-devi-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title"> 9 Devi Yatra</h2>
+          <div class="card_text">
+            <p>Jingle Holiday Bazar offers a 9 Devi Yatra sightseeing tour packages, that covers the nine revered Hindu goddess temples in Uttarakhand and Jammu & Kashmir. The tour includes visits to the temples of Maa Vaishno Devi, Maa Mansa Devi, Maa Naina Devi ,Maa Jwala Devi, Maa Chintpurni Devi, Maa Chamunda Devi, Maa Dhari Dev, Maa Brajeshwari Devi and Maa Sheetla Devi This spiritual journey provides an opportunity to explore the rich cultural heritage of India and experience its divine essence</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="9-Devi-Tour-Packages.html">Read Blog</a></button>
+          </div>
+        </div>
+        <!--========================New bar====================-->
+            <div id="bar-list">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        <!--========================New bar====================-->
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- ==================================================================== -->
+<hr/>
+
+ <br>
+<br><br>
+ 
+<script type="text/javascript">
+   AOS.init({
+  duration: 1200,
+})
+
+</script>
+ <br>
+<br><br>
+
+<!--=========================================== Live chat box=================================================-->
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/64e88f0294cf5d49dc6c7311/1h8m6t9hv';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!--================================= Live chat box==================================-->
+<div style="background-image: -webkit-linear-gradient(
+268deg
+, #312504 0%, white 100%); color:black">
+<div class="container ">
+  <div class="row">
+  <div class="col-md-3 mt-5 text-center">
+    <h4 style="color:black;">Have Questions?</h4>
+    <p>Phone:<a class="aboutus" href="https://wa.link/9hwu05">+91 8506922777</a><br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<a class="aboutus" href="https://api.whatsapp.com/send?phone=8506944777&text=Hello,%20I%20want%20more%20info%20about%20the%20your%20tours%20plane...?">+91 8506944777</a></p>
+    <p><a class="aboutus" href="mailto:jingleholidaybazar@gmail.com">jingleholidaybazar@gmail.com</a></p>
+    <p><a class="aboutus" href="mailto:thejingleholidaybazar@gmail.com">thejingleholidaybazar@gmail.com</a></p>
+    <p>24/7 Dedicated Customer Support</p>
+  </div>
+  <div class="col-md-3 mt-5 text-center">
+    <h4 style="color:black">Quick Links</h4>
+    <p><a class="aboutus" href="index.html">Home</a></p>
+    <p><a class="aboutus" href="about.html">About Us</a></p>
+    <div class="dropdown">
+    <li class="nav-link aboutus dropdown-toggle" data-toggle="dropdown">
+      India
+    </li>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="north.html">NORTH</a>
+      <a class="dropdown-item" href="west.html">WEST</a>
+      <a class="dropdown-item" href="east.html">EAST</a>
+      <a class="dropdown-item" href="south.html">SOUTH</a>
+      </div>
+  </div>
+    <p><a class="aboutus" href="destinations.html">Destinations</a></p>
+    <p><a class="aboutus" href="hotel.html">Hotels</a></p>
+    <p><a class="aboutus" href="gallery.html">Gallery</a></p>
+    <p><a class="aboutus" href="contact.html">Contact Us</a></p>
+
+  </div>
+  <div class="col-md-2 mt-5 text-center">
+    <h4 style="color:black;">Social Media</h4>
+    <div class="social-media">
+      <ul>
+        <li><a href="https://m.facebook.com/jingleholidaybazar"><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <!--<li><a href=""><i class="fa fa-pinterest"></i></a></li>-->
+          <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+          <!--<li><a href=""><i class="fa fa-tumblr"></i></a></li>-->
+
+
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-4 mt-5 ">
+    <h4 style="color: black;">Newsletter</h4>
+    <label>Enter your E-mail Address</label>
+    <input type="email" name="email" class="form-control">
+    <p style="margin-top: 5px;"><small>*We Never Send Spam</small></p>
+    <input type="submit" value="Subscribe" class="btn btn-success">
+
+
+  </div>
+  <div class="container text-center">
+    <hr style="background-color: black">
+  <h6>Powered By | <a href ="https://namratauniversal.com/">Namrata Universal</a> | All Rights are Reserved by Jingleholidaybazar</h6>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+</body>
+</html>

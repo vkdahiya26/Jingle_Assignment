@@ -1,0 +1,471 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jingle Holiday Bazar</title>
+   <link rel="icon" type="image/x-icon" href="images/mainlogo.gif" style="    border-radius: 600px;">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="travel.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--JS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <link rel="stylesheet" type="text/css" href="blog.css">
+</head>
+<body>
+<!--=============================nav bar=====================================-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="position: fixed; width: 100%; 
+background-image: -webkit-linear-gradient( 268deg , #312504 0%, white 100%);
+    color: black;">
+    <div class="container-fluid"> 
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="images/mainlogo.gif">
+        </a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+        <div class="collapse navbar-collapse pl-4" id="navbarNavDropdown">
+            <ul class="navbar-nav pl-5 mx-auto" id="navi">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Domestic</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="north.html">NORTH</a>
+                        <a class="dropdown-item" href="west.html">WEST</a>
+                        <a class="dropdown-item" href="east.html">EAST</a>
+                        <a class="dropdown-item" href="south.html">SOUTH</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    International</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Thailand-Tour-Packages.html">Thailand</a>
+                        <a class="dropdown-item" href="Belgium-Tour-Packages.html">Belgium</a>
+                        <a class="dropdown-item" href="Canada-Tour-Packages.html">Canada</a>
+                        <a class="dropdown-item" href="Dubai-Tour-Packages.html">Dubai</a>
+                        <a class="dropdown-item" href="Singapore-Tour-Packages.html">Singapore</a>
+                        <a class="dropdown-item" href="Germany-Tour-Packages.html">Germany</a>
+                        <a class="dropdown-item" href="Maldives-Tour-Packages.html">Maldives</a>
+                        <a class="dropdown-item" href="Iceland-Tour-Packages.html">Iceland</a>
+                        <a class="dropdown-item" href="Malaysia-Tour-Packages.html">Malaysia</a>
+                        <a class="dropdown-item" href="Switzerland-Tour-Packages.html">Switzerland</a>
+                        <a class="dropdown-item" href="Nepal-Tour-Packages.html">Nepal</a>
+                        <a class="dropdown-item" href="international-package-service.html">View More Place</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Place</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="destinations.html">Destinations</a>
+                        <a class="dropdown-item" href="hotel.html"> Hotels</a>
+                        <a class="dropdown-item" href="gallery.html">Gallery</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-link dropdown-toggle" data-toggle="dropdown">
+                    Packages</li>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="domestic-package-service.html"> Domestic Packages</a>
+                        <a class="dropdown-item" href="international-package-service.html"> International Packages</a>
+                    </div>
+                </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tel:+91 8506922777">+91 8506922777</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="payment_form.html">PAY NOW</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--=============================nav bar=====================================-->
+
+<!--===================================================-->
+<div id="mySidenav" class="sidenav">
+    <a data-toggle="modal" data-target="#exampleModal" id="about" style="font-size:10px;color:white;">Enquiry</a> 
+    <a href="mailto:jingleholidaybazar@gmail.com" id="blog" style="font-size:10px;color:red">
+        <img src="images/logo_gmail_lockup_default_1x_r2.png" style="height:15px"></a>
+    <a class="fa fa-phone" href="tel:+91 8506922777" id="projects" style="font-size:15px;color:white;"></a>
+    <a class="fa fa-whatsapp" href="https://wa.link/9hwu05" id="contact" style="font-size:15px;color:white;"></a>
+</div>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-left: auto;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel" style="margin-right: auto; margin-left: auto;">CONTACT</h2>
+       
+      </div>
+      <div class="modal-body">
+        <div class="wrapper">
+    
+    <form action="" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" name="Name" id="name" placeholder="First and Last" required minlength="3" maxlength="25" />
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" name="Email" id="email" placeholder="email@domain.tld" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="Message" id="message" rows="5" placeholder="Type your message here...."></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Send</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </form>
+  </div>
+      </div>
+      <div id="status"></div>
+      
+    </div>
+  </div>
+</div>
+  <section class="inner-page-banner" style="background-image:url(images/Group-Learning-Tours-1024x587.jpg); margin-bottom: 32px;">
+    <div class="page-banner-caption">
+      <div class="container">
+        <div class="row">
+          <div data-aos="fade-right">
+          <div class="col-md-12">
+            <h1>Switzerland Tour Details</h1>
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active">Tours</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+   AOS.init({
+  duration: 1200,
+})
+ </script>
+ 
+ 
+ 
+ 
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="text-center"> Switzerland Tour Package </h3>
+      <hr>
+    </div>
+  </div>
+</div>
+ 
+<!-- =====================Latest Blog Posts===================== -->
+ <!--====================================================================================-->
+<div class="container mb-5">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="images/travel.jpg" width="100%">
+    </div>
+     <div class="col-md-4">
+       <img src="images/Jingle.jpg" width="100%">
+    </div>
+     <div class="col-md-4">
+       <img src="images/travel-world.jpg" width="100%">
+     </div>
+  </div>
+</div>
+
+<!--============================================================================================-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+        <div class="twelve">
+            <h2 class="text-danger text-center"><b><i>Perfect Time To Visit Switzerland </i></b></h2>
+        </div>
+          <p>
+            <b> 
+             Experience the enchanting beauty of Switzerland with our delightful holiday bazar! Immerse yourself in the breathtaking landscapes of the Swiss Alps, where snow-capped mountains and lush meadows await. Glide on pristine lakes and enjoy the charm of picturesque villages like never before.
+Discover iconic cities like Zurich, Geneva, and Lucerne, where rich history seamlessly blends with modernity. Savor the delights of Swiss chocolates and cheeses, leaving you craving for more.
+Thrill-seekers can embark on exciting adventures like skiing, hiking, and paragliding. Don't miss the chance to visit famous landmarks such as the Matterhorn and Jungfrau, capturing picture-perfect moments throughout your journey.
+Our jingle holiday bazar promises an unforgettable experience with expert guides, comfortable accommodations, and hassle-free travel. Join us on this memorable expedition and create cherished memories that will last a lifetime in the mesmerizing wonderland of Switzerland!
+
+            </b>
+          </p>
+    </div>
+  </div>
+</div>
+<!--============================================================================================-->
+
+
+<!-- =====================Latest Blog Posts===================== -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3 class="text-center">Latest Tour Packages</h3>
+      <hr>
+    </div>
+  </div>
+</div>
+<!--=============================================-->
+<!--=============================================-->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-zurich-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Zurich Tour</h2>
+          <div class="card_text">
+            <p>Zurich, a city located in Switzerland, offers a variety of sightseeing opportunities. Visitors can explore famous landmarks such as the Grossmünster church and the luxurious Bahnhofstrasse shopping street. They can also take a relaxing stroll along the Limmat river or enjoy breathtaking views from the Uetliberg mountain. Additionally, tourists should not miss the chance to visit the Swiss National Museum or wander through the charming Old Town with its narrow streets and historic buildings.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/zurich-switzerland-blog.html">Read Blog</a></button>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-lucerne-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Lucerne Tour</h2>
+          <div class="card_text">
+            <p>Lucerne is a picturesque city in Switzerland that is perfect for sightseeing. You can start by visiting the iconic Chapel Bridge and Water Tower, then wander the charming cobblestone streets of the Old Town. Don't forget to see the famous Lion Monument and the modern KKL cultural center. And for stunning views of the surrounding Alps, you can take a boat ride on Lake Lucerne.</p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/lucerne-switzerland-blog.html">Read Blog</a></button>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-interlaken-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Interlaken Tour</h2>
+          <div class="card_text">
+            <p>Interlaken is a charming town situated in the heart of the Swiss Alps, renowned for its breathtaking vistas of the surrounding mountains and crystal-clear lakes. It is a popular destination for tourists seeking adventure and scenic beauty. One can take a scenic train ride to Jungfraujoch, the highest railway station in Europe, or enjoy paragliding over the stunning landscape. The town's streets are lined with various shops, restaurants, and historic buildings, offering visitors an opportunity to explore and experience the local culture.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/interlaken-switzerland-blog.html">Read Blog</a></button>
+             <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- =====================row content 2==================================== -->
+<!--=============================================-->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-bern-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Bern Tour</h2>
+          <div class="card_text">
+            <p>Bern is the capital of Switzerland and it offers many interesting sights. One of the highlights is the Old Town, which has been recognized as a UNESCO World Heritage Site. You can admire medieval architecture and the famous Zytglogge clock tower. Take a stroll along the Aare River to enjoy the picturesque views of the city. Don't miss the opportunity to visit the Bern Cathedral and the Bear Park while you're in town.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/bern-switzerland-blog.html">Read Blog</a></button>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+           <span class="note">New</span>
+          <img src="images/jingle-holiday-bazar-zermatt-tour-package.png" />
+          <span class="card_price"><span>Mar&nbsp;</span>10</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Zermatt Tour</h2>
+          <div class="card_text">
+            <p>Zermatt is a beautiful destination located in the Swiss Alps that offers breathtaking views of the Matterhorn peak. One of the best ways to experience these stunning views is by taking a ride on the Gornergrat Bahn, a cogwheel train that takes you to the top of Gornergrat mountain. The views from the top are simply breathtaking. Another must-visit attraction in Zermatt is the Matterhorn Museum, where you can learn about the fascinating history of the region. And if you want to see more stunning views, climb up the Sunnegga mountain. </p>
+           <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/zermatt-switzerland-blog.html">Read Blog</a></button>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <span class="note">Latest</span>
+          <img src="images/jingle-holiday-bazar-grindelwald-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>16</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title"> Grindelwald Tour</h2>
+          <div class="card_text">
+            <p>Grindelwald is a picturesque Swiss village nestled in the Alps that boasts stunning vistas of the surrounding mountains. Visitors can take a cable car up to Mount First to enjoy a breathtaking panorama or wander through the charming streets and admire the traditional Swiss architecture. Outdoor enthusiasts can also enjoy a variety of activities like hiking, skiing, and paragliding in the area.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/grindelwald-switzerland-blog.html">Read Blog</a></button>
+             <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<!-- =====================row content 2==================================== -->
+<!--=============================================-->
+<div class="main">
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image">
+          <img src="images/jingle-holiday-bazar-lugano-tour-package.png"/>
+          <span class="card_price"><span>Mar&nbsp;</span>9</span>
+        </div>
+        <div class="card_content">
+          <h2 class="card_title">Lugano Tour</h2>
+          <div class="card_text">
+            <p>Lugano is a charming city situated in the southern region of Switzerland that offers a multitude of sightseeing opportunities. You can take a leisurely stroll along the picturesque lakefront or explore the historic old town. There are several places of interest to visit, such as the San Lorenzo Cathedral and the Hermann Hesse Museum. For breathtaking views of the city, you can take a funicular to Monte Brè or Monte San Salvatore. And, of course, don't miss out on indulging in some of the delicious Swiss cuisine that Lugano has to offer.</p>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="blogs/lugano-switzerland-blog.html">Read Blog</a></button>
+            <button type="button" class="btn btn-outline-success btn-sm"><a href="https://wa.link/9hwu05">Enquiry</a></button>
+          </div>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+</div>
+<!-- =====================row content 2==================================== -->
+ 
+
+ 
+ 
+<script type="text/javascript">
+   AOS.init({
+  duration: 1200,
+})
+
+</script>
+ <br>
+<br><br>
+
+<!--=========================================== Live chat box=================================================-->
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/64e88f0294cf5d49dc6c7311/1h8m6t9hv';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<!--================================= Live chat box==================================-->
+<div style="background-image: -webkit-linear-gradient(
+268deg
+, #312504 0%, white 100%); color:black">
+<div class="container ">
+  <div class="row">
+  <div class="col-md-3 mt-5 text-center">
+    <h4 style="color:black;">Have Questions?</h4>
+    <p>Phone:<a class="aboutus" href="https://wa.link/9hwu05">+91 8506922777</a><br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<a class="aboutus" href="https://api.whatsapp.com/send?phone=8506944777&text=Hello,%20I%20want%20more%20info%20about%20the%20your%20tours%20plane...?">+91 8506944777</a></p>
+    <p><a class="aboutus" href="mailto:jingleholidaybazar@gmail.com">jingleholidaybazar@gmail.com</a></p>
+    <p><a class="aboutus" href="mailto:thejingleholidaybazar@gmail.com">thejingleholidaybazar@gmail.com</a></p>
+    <p>24/7 Dedicated Customer Support</p>
+  </div>
+  <div class="col-md-3 mt-5 text-center">
+    <h4 style="color:black">Quick Links</h4>
+    <p><a class="aboutus" href="index.html">Home</a></p>
+    <p><a class="aboutus" href="about.html">About Us</a></p>
+    <div class="dropdown">
+    <li class="nav-link aboutus dropdown-toggle" data-toggle="dropdown">
+      India
+    </li>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="north.html">NORTH</a>
+      <a class="dropdown-item" href="west.html">WEST</a>
+      <a class="dropdown-item" href="east.html">EAST</a>
+      <a class="dropdown-item" href="south.html">SOUTH</a>
+      </div>
+  </div>
+    <p><a class="aboutus" href="destinations.html">Destinations</a></p>
+    <p><a class="aboutus" href="hotel.html">Hotels</a></p>
+    <p><a class="aboutus" href="gallery.html">Gallery</a></p>
+    <p><a class="aboutus" href="contact.html">Contact Us</a></p>
+
+  </div>
+  <div class="col-md-2 mt-5 text-center">
+    <h4 style="color:black;">Social Media</h4>
+    <div class="social-media">
+      <ul>
+        <li><a href="https://m.facebook.com/jingleholidaybazar"><i class="fa fa-facebook"></i></a></li>
+          <li><a href=""><i class="fa fa-instagram"></i></a></li>
+          <li><a href=""><i class="fa fa-twitter"></i></a></li>
+          <!--<li><a href=""><i class="fa fa-pinterest"></i></a></li>-->
+          <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+          <!--<li><a href=""><i class="fa fa-tumblr"></i></a></li>-->
+
+
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-4 mt-5 ">
+    <h4 style="color: black;">Newsletter</h4>
+    <label>Enter your E-mail Address</label>
+    <input type="email" name="email" class="form-control">
+    <p style="margin-top: 5px;"><small>*We Never Send Spam</small></p>
+    <input type="submit" value="Subscribe" class="btn btn-success">
+
+
+  </div>
+  <div class="container text-center">
+    <hr style="background-color: black">
+  <h6>Powered By | <a href ="https://namratauniversal.com/">Namrata Universal</a> | All Rights are Reserved by Jingleholidaybazar</h6>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
